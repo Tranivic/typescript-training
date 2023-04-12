@@ -1,4 +1,5 @@
 "use strict";
+// Training classes object
 class Department {
     constructor(name, code) {
         this.employees = [];
