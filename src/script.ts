@@ -1,3 +1,4 @@
+// Training classes object
 class Department {
   name: string;
   code: number;
