@@ -1,3 +1,4 @@
+// Intersection Types - Typescript
 enum UserRole {
   ADMIN,
   DEFAULT,
@@ -33,4 +34,4 @@ const printUserInfo = (user: UnknownUser) => {
   }
 };
 
-printUserInfo(adminUser1); // This user is admin
+printUserInfo(adminUser1);

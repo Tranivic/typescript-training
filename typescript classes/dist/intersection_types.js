@@ -1,4 +1,5 @@
 "use strict";
+// Intersection Types - Typescript
 var UserRole;
 (function (UserRole) {
     UserRole[UserRole["ADMIN"] = 0] = "ADMIN";
@@ -32,4 +33,4 @@ const printUserInfo = (user) => {
         console.log('This user is not admin');
     }
 };
-printUserInfo(adminUser1); // This user is admin
+printUserInfo(adminUser1);
