@@ -4,7 +4,7 @@ let employee1;
 employee1 = {
     name: 'Victor',
     age: 26,
-    entering: new Date('2021-05-05'),
+    entering: new Date(),
     timeInHouse() {
         const dayInMilisec = 86400000;
         const today = new Date().getTime();
@@ -35,4 +35,9 @@ employee1 = {
         return `O funcionário ${this.name} está na empresa há ${timeText}.`;
     },
 };
-console.log(employee1.timeInHouse());
+const foodSector = {
+    name: 'Mac',
+    employees: [employee1],
+    cc: 14,
+};
+console.log(foodSector.employees);

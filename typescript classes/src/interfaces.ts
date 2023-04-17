@@ -13,7 +13,7 @@ let employee1: Employee;
 employee1 = {
   name: 'Victor',
   age: 26,
-  entering: new Date('2021-05-05'),
+  entering: new Date(),
 
   timeInHouse() {
     const dayInMilisec = 86400000;
@@ -50,4 +50,16 @@ employee1 = {
   },
 };
 
-console.log(employee1.timeInHouse());
+interface Sector {
+  name: string;
+  employees: Employee[];
+  cc: number;
+}
+
+const foodSector: Sector = {
+  name: 'Mac',
+  employees: [employee1],
+  cc: 14,
+};
+
+console.log(foodSector.employees);
