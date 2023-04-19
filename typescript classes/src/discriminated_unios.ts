@@ -54,5 +54,4 @@ const bloodDragon: Dragon = {
   life: 100,
   firePower: 8,
 };
-
 dmgBoss(bloodDragon);
