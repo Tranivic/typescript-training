@@ -1,4 +1,4 @@
-export interface GeocodeData {
+export interface GeocodeDataFetched {
     results: {
       address_components: {
         long_name: string;
