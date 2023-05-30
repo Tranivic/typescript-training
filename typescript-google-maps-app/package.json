@@ -9,11 +9,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/google.maps": "^3.53.2",
     "@types/lodash": "^4.14.195",
     "typescript": "^5.0.2",
     "vite": "^4.3.2"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.15.2",
     "axios": "^1.4.0",
     "lodash": "^4.17.21"
   }
